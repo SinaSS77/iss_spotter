@@ -19,7 +19,6 @@ const fetchMyIP = function (callback) {
       );
       return;
     }
-
     const ip = JSON.parse(body).ip;
     callback(null, ip);
   });
